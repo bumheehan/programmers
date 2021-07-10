@@ -33,7 +33,7 @@ public class 실패율 {
 
     Collections.sort(stagesList);
 
-    return stagesList.stream().mapToInt(s -> s.idx).toArray();
+    return stagesList.stream().mapToInt(sa -> sa.idx).toArray();
   }
 
   public class Stage implements Comparable<Stage> {
